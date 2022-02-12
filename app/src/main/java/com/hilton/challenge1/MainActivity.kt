@@ -30,8 +30,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun click(){
-        button.setOnClickListener { check() }
+        button.setOnClickListener {
+            if (editText.text.isEmpty()) editText.error = getString(R.string.edittext_error) else check() }
     }
+
+
 }
 
 fun EditText.palindromeGetText() = text.toString().lowercase().replace(" ","")

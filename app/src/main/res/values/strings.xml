@@ -5,4 +5,5 @@
     <string name="write_here">Write here</string>
     <string name="not_palindrome">It is not a palindrome</string>
     <string name="is_palindrome">It is a palindrome</string>
+    <string name="edittext_error">Must write something</string>
 </resources>
