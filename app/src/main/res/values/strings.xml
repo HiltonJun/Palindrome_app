@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Challenge 1</string>
+    <string name="palindrome_definition">A palindrome is a word, phrase, or sequence that reads the same backward as forward. eg. Ana or 121.\nWrite a word below and press check. This app will answer if it is a palindrome or not.</string>
+    <string name="check">Check</string>
+    <string name="write_here">Write here</string>
+    <string name="not_palindrome">It is not a palindrome</string>
+    <string name="is_palindrome">It is a palindrome</string>
+</resources>
